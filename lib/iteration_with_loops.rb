@@ -10,7 +10,7 @@ while row_index < src do
   element_index = 0
   min = 0
   while element_index < src[row_index].count do
-    num = src[row_index][element_index]
+    num = src[row_index][element_index].to_int
     if num < min
       min = src[row_index][element_index]
     end
