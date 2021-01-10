@@ -10,8 +10,8 @@ while row_index < src do
   element_index = 0
   min = 0
   while element_index < src[row_index].count do
-
-    if src[row_index][element_index] < min
+    num = src[row_index][element_index]
+    if  < min
       min = src[row_index][element_index]
     end
     element_index += 1
